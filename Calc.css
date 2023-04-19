@@ -4,13 +4,13 @@ body{ /* change what's inside the body of the html file*/
     /*background-repeat: no-repeat;   /*so the double colors don't repeat*/
     /*background-attachment: fixed;   /*strech the background color to the end of the page*/
 
-    background-image:url("ducky.png");
-    background-position: right;
+    background:url("ducky.png") , url("ducky.png");
+    background-position: right , left;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: contain;
+    background-size: contain , contain;
     margin: 2cm;
-    margin-left: 10cm;
+    margin-left: 10.5cm;
 } 
 
 h1{         /* Change what's indie the hq of the html file*/
