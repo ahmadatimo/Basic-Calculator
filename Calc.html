@@ -5,27 +5,28 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Calculator</title>
+        <link rel="stylesheet" href="Calc.css">
     </head>
     <body>
         <h1>
-            <label id = "intro"> 
+            <label id = "intro" class="header"> 
                 Hello, this is a simple calculator I wish you enjoy it.
             </label>
             <br><br>
         </h1>
 
         <h2>
-            <label id  = "show1">
+            <label id  = "show1" class = "check" >
                 First number is:
             </label>
             <br>
                 
-            <label id  = "sign">
+            <label id  = "sign" class = "check" >
                 Sign is:  
             </label>
             <br>
 
-            <label id  = "show2">
+            <label id  = "show2" class = "check" >
                 Second number is:  
             </label>
             <br>
@@ -33,31 +34,32 @@
         
         <h2>
             <label id  = "entry1">
-                Enter the first number is:  
+                Enter the first number:
                 <input type = "number1" , id = "num1"><br>  
             </label>
         </h2> 
-        <button type = "add" , id = "addButton" style="width: 100px; height: 50px; height: fit-content;">
+        
+        <button class = "button" type = "add" , id = "addButton" style="width: 100px; height: 50px; height: fit-content;">
             <h1>+</h1> 
         </button>
-        <button type = "minus" , id = "minusButton" style="width: 100px; height: 50px; height: fit-content;"> 
+        <button class = "button" type = "minus" , id = "minusButton" style="width: 100px; height: 50px; height: fit-content;"> 
             <h1>-</h1> 
         </button>
-        <button type = "Multiply" , id = "multiButton" style="width: 100px; height: 50px; height: fit-content;" >
+        <button  class = "button" type = "Multiply" , id = "multiButton" style="width: 100px; height: 50px; height: fit-content;" >
             <h1>*</h1>
         </button>
-        <button type = "division" , id = "divisionButton" style="width: 100px; height: 50px; height: fit-content;" > 
+        <button class = "button" type = "division" , id = "divisionButton" style="width: 100px; height: 50px; height: fit-content;" > 
             <h1>/</h1> 
         </button>
 
         <h2>
             <label id  = "entry2">
-                Enter the second number is:  
+                Enter the second number:  
                 <input type = "number2" , id = "num2"><br>  
             </label>
         </h2> 
         
-        <button type = "finish" , id = "submit" , style = "text-align: center;"> <h1>=</h1> </button>
+        <button class = "button" type = "finish" , id = "submit" , style = "text-align: center;"> <h1>=</h1> </button>
 
         <h2>
             <label id  = "res">

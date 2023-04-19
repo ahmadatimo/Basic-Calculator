@@ -1,0 +1,52 @@
+body{ /* change what's inside the body of the html file*/   
+    
+    /*background:linear-gradient(skyblue , lightgreen ); /*for more colors*/
+    /*background-repeat: no-repeat;   /*so the double colors don't repeat*/
+    /*background-attachment: fixed;   /*strech the background color to the end of the page*/
+
+    background-image:url("ducky.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    margin: 2cm;
+    margin-left: 10cm;
+} 
+
+h1{         /* Change what's indie the hq of the html file*/
+    color: coral;
+    margin: 25px;
+}
+
+h2{
+    margin-left: 5cm;
+}
+
+.button{
+    margin-left: 2cm;
+}
+
+#submit{
+    margin-left: 10cm;
+}
+
+#intro{     /* Make changes to the following object that has an Id of "intro" */
+
+    background-color:springgreen; 
+}
+
+#res{
+    
+    margin-left: 135px;
+    border-style: outset;
+    border-color: turquoise;
+    border-width: 7px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.check{    /* Make changes to the objects which have class named "check" */
+
+    margin: 3cm;
+    background-color:burlywood;
+}
